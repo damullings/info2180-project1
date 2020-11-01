@@ -4,8 +4,112 @@ body {
     font-size: 16px;
 }
 
-.container {
+/* Default Font*/
+html, body, h1, h2, h3, h4, h5, h6  {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, "Noto Sans", sans-serif;
+    font-size: 18px;
+}
+
+.container h1{
+    /* This is the first header to the left of the menu */
     margin: 0 auto;
     max-width: 960px;
-    width: 100%;
+    padding-left: 150px;
+    line-height: 20px;
+    background-color: white;
+    /* Default font size is 18px */
+    width: 50%;
+    float: left;
+}
+
+
+.container nav ul{
+    overflow: hidden;
+    list-style-type: none;
+    line-height: 20px;
+    /* Default font size is 18px */
+    margin: 0;
+    padding: 0 5px;
+    
+}
+
+.container nav ul li{
+    float:left;
+    padding: 0 15px;
+}
+
+.container nav ul li a{
+    text-decoration: none;
+    color: #6b7280;
+}
+
+.container nav ul li a:hover{
+    color: #5A57D8;
+}
+
+.overview-hero{
+    background-color: #E2E8F0;
+}
+
+.learn-about .container h2{
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.learn-about .container .cards .card{
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: #48BB78;
+}
+
+.card-body h3
+{
+    color: #48BB78;
+    font-size: 21px;
+}
+
+.testing 
+{
+    color: white;
+    background-color: #4A5568;
+}
+
+.cta a
+{
+    /* Testing Description Button Words */
+    background-color: #48BB78;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.stories .container h2
+{
+    /* Recent Stories heading */
+    color: #5A67D8;
+}
+
+.article-body p a
+{
+    /* Article Links */
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+.article-body h3{
+    /* Article Headings */
+    font-size: 18px;
+}
+
+.stories .container article img
+{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+
+.card img
+{
+    height: 120px;
+    width: auto;
 }
