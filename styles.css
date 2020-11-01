@@ -24,11 +24,12 @@ html, body, h1, h2, h3, h4, h5, h6  {
     /* This is the first header to the left of the menu */
     margin: 0 auto;
     max-width: 960px;
-    padding-left: 150px;
+    padding: 8px;
+    padding-left: 80px;
     line-height: 30px;
     background-color: white;
     /* Default font size is 18px */
-    width: 40%;
+    width: 30%;
     float: left;
 }
 
@@ -39,14 +40,14 @@ html, body, h1, h2, h3, h4, h5, h6  {
     line-height: 30px;
     height: 40px;
     /* Default font size is 18px */
-    margin: 0;
-    padding: 0 5px;
+    margin: 0 80px;
+    padding: 8px 50px;
     
 }
 
 .container nav ul li{
     float:left;
-    padding: 0 5px;
+    padding: 0 10px;
 }
 
 .container nav ul li a{
@@ -85,7 +86,7 @@ html, body, h1, h2, h3, h4, h5, h6  {
 
 .overview-hero-text
 {
-    flex-basis: 400px;
+    flex-basis: 500px;
 }
 .overview-hero-image img
 {
@@ -102,17 +103,18 @@ html, body, h1, h2, h3, h4, h5, h6  {
 .learn-about .container
 {
     padding-bottom: 50px;
+    margin-left: 150px;
 }
 .learn-about .container h2{
     font-size: 24px;
     color: #48BB78;
-    padding-left: 150px;
+    padding-left: 75px;
 }
 
 .learn-about .container .cards
 {
     display: grid;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-left: 100px;
     justify-content: center;
     grid-template-columns: 300px 300px 300px;
@@ -199,20 +201,21 @@ html, body, h1, h2, h3, h4, h5, h6  {
 /* Stories */
 .stories
 {
-    padding-top: 100px;
+    padding-top: 70px;
     padding-left: 150px;
+    padding-bottom: 100px;
 }
 
 .stories .container h2
 {
     /* Recent Stories heading */
     color: #5A67D8;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 .article-body
 {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     width: 70%;
 }
 
@@ -243,21 +246,50 @@ html, body, h1, h2, h3, h4, h5, h6  {
     float: left;
 }
 
+/* END Stories */
 
 
+/* Newsletter */
 .newsletter
 {
     background-color: #48BB78;
     color: white;
+    height: 200px;
+    padding: 30px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.form
+{
+    margin-left: 100px;
+}
+
+.form-group > input
+{
+    margin-left: 200px;
+    width: 30%;
+    float: left;
+    line-height: 40px;
 }
 
 .newsletter .container .btn
 {
     background-color: #5A67D8;
+    width: 20%;
+    float: left;
+    margin-left: 7px;
+    line-height: 40px;
+    
 }
+
+/** END Newsletter */
 
 footer
 {
     background-color: #4A5568;
     color: white;
+    height: 50px;
+    padding: 20px;
+    padding-left: 150px;
 }
