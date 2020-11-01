@@ -199,7 +199,7 @@ html, body, h1, h2, h3, h4, h5, h6  {
 /* Stories */
 .stories
 {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-left: 150px;
 }
 
@@ -207,6 +207,18 @@ html, body, h1, h2, h3, h4, h5, h6  {
 {
     /* Recent Stories heading */
     color: #5A67D8;
+    padding-bottom: 15px;
+}
+
+.article-body
+{
+    padding-bottom: 15px;
+    width: 70%;
+}
+
+.article-body
+{
+    padding-left: 200px;
 }
 
 .article-body p a
@@ -219,13 +231,16 @@ html, body, h1, h2, h3, h4, h5, h6  {
 .article-body h3{
     /* Article Headings */
     font-size: 18px;
+    width: 60%;
 }
 
 .stories .container article img
 {
     border-radius: 50%;
-    height: 120px;
-    width: 120px;
+    margin-top: 20px;
+    height: 175px;
+    width: 175px;
+    float: left;
 }
 
 
