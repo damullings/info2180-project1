@@ -99,6 +99,10 @@ html, body, h1, h2, h3, h4, h5, h6  {
 
 /* The Learn About section Layout */
 
+.learn-about .container
+{
+    padding-bottom: 50px;
+}
 .learn-about .container h2{
     font-size: 24px;
     color: #48BB78;
@@ -146,21 +150,57 @@ html, body, h1, h2, h3, h4, h5, h6  {
 
 /* TESTING Section */
 
-.testing 
+.testing
+{
+    background-color: #4A5568;
+    padding-top: 70px;
+    height: 220px;
+    width: 100%;
+    margin: 0;
+}
+
+.testing .container 
 {
     color: white;
     background-color: #4A5568;
-    height: 250px;
+    padding-left: 150px;
+    width: 100%;
+    display: flex;
+    align-content: stretch;
 }
 
+.testing-desciption
+{
+    color: white;
+    flex-basis: 600px;
+}
+
+.cta
+{
+    margin: auto;
+    flex-basis: 300px;
+    
+}
 
 .cta a
 {
     /* Testing Description Button Words */
     background-color: #48BB78;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
+    
     text-decoration: none;
+    color: white;
+}
+
+/* End TESTING Section */
+
+
+/* Stories */
+.stories
+{
+    padding-top: 50px;
+    padding-left: 150px;
 }
 
 .stories .container h2
