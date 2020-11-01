@@ -7,7 +7,7 @@ window.onload = function()
     var message = document.getElementsByClassName("message")
     message = message[0]
 
-    btns[1].addEventListener("click", function(){
+    btns[1].addEventListener("click", function(event){
         var email = document.getElementById("email").value
         if (email == "")
         {
@@ -19,8 +19,9 @@ window.onload = function()
             message.innerHTML = "Thank you! Your email address " + email + " has been added to our mailing list"
 
         }
-    
+        event.preventDefault()
     
     })
+
 }
 
